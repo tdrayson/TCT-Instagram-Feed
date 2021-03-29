@@ -13,8 +13,9 @@ Add instagram feed to page from URL
 ## Shortcode 
 
 ``` [instafeed user="ATTRIBUTE_NAME"] ```
+*Shortcode takes 1 arguement*
 
-**Attribute name options**
+**Attribute name options** 
 * `feed` - User image feed
 * `username` - Users username
 * `name` - Users display name
@@ -24,6 +25,8 @@ Add instagram feed to page from URL
 * `following` - Users following count
 * `bio` - Users bio
 * `post_count` - Total number of users posts
+
+Examples - `[instafeed user="feed"]` or `[instafeed user="bio"]`
 
 To see what other data is available, use - https://www.instagram.com/instagram/channel/?__a=1 
 
