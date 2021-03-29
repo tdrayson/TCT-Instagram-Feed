@@ -12,7 +12,7 @@ Add instagram feed to page from URL
 
 ## Shortcode 
 
-``` [instafeed attribute="ATTRIBUTE_NAME"] ```
+``` [instafeed user="ATTRIBUTE_NAME"] ```
 
 **Attribute name options**
 * `feed` - User image feed
