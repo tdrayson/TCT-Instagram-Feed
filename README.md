@@ -14,7 +14,7 @@ Add instagram feed to page from URL
 
 ``` [instafeed attribute="ATTRIBUTE_NAME"] ```
 
-* Attribute name options *
+**Attribute name options**
 * `feed` - User image feed
 * `username` - Users username
 * `name` - Users display name
