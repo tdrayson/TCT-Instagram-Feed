@@ -1,0 +1,59 @@
+<!-- To use the Slider option you need to load the slick CSS and JS - you can load this via CDN or locally via download -->
+
+<!--  Load your CSS in the head of your website -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
+
+<!--  Load your JS just before the closing </body> tag -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
+<!-- Gives the next and previous arrows to grey. Default it white  -->
+<style>
+    .slick-next::before, .slick-prev::before{
+        color:grey;
+    }
+</style>
+
+
+
+<!-- Configuring the slider - For a list of all availble options, see - https://kenwheeler.github.io/slick/#settings   -->
+<script>
+jQuery(document).ready(function(){
+  jQuery('.insta-slider').slick({
+  dots: false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 4,
+  lazyLoad: 'ondemand',
+  autoplay: true,
+  autoplaySpeed: 2000,
+  pauseOnHover: true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+  });
+});
+</script>
