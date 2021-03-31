@@ -24,7 +24,6 @@ Add instagram feed to page from URL
 1. Add slider CSS to head of website
 2. Add slider JS just before closing `</body>` tag
 3. Add the `<script>` and `<styles>` code to functions.php or code snippets
-4. 
 
 ## <a name="shortcode"></a>Shortcode 
 
