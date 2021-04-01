@@ -78,9 +78,9 @@ You can pass extra parameters to the grid and slider:
 If the instagram feed is showing the wrong user, this is usually down to the transients showing a cached version.
 
 To fix this, pleaase use these steps:
-1. uncomment lines `18` and `20` in index.php
+1. uncomment lines `8` and `20` in index.php
 2. Load the frontend where the shortcode appears
-3. Re-comment lines `18` and `20`
+3. Re-comment lines `8` and `20`
 
 ## <a name="support"></a>Support
 If you found this useful,and would like to support me. You can use my buyMeACoffee link below. <br>
