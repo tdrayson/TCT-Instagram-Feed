@@ -4,6 +4,7 @@ Add instagram feed to page from URL
 ---
 
 ## Table of Contents
+* [Tutorial](#tutorial)
 * [Usage](#usage)
 * [Shortcode](#shortcode)
    * [Attribute Options](#attribute)
@@ -12,6 +13,9 @@ Add instagram feed to page from URL
 * [Troubleshooting](#troubleshooting)
 * [Support](#support)
 
+## <a name="tutorial"></a>Tutorial
+Watch the demo and tutorial from Jonathan at <a href="https://permaslug.com/">Permaslug<a/><br><br>
+<a href="https://youtu.be/oVObEq1Vnzo" target="_blank"><img width="600" alt="Youtube Thumbnail" src="https://user-images.githubusercontent.com/33532995/114105586-ed77de80-98c4-11eb-9323-a7ca56f943e2.jpg"></a>
 
 ## <a name="usage"></a>Usage
 
@@ -53,11 +57,11 @@ You can pass extra parameters to the grid and slider:
 ## <a name="examples"></a>Examples
 
 ### Grid
-`[instafeed user="feed-grid" caption=true post_count=6]`
+`[instafeed user="feed-grid" caption=true post_count=6]`<br><br>
 <img width="1087" alt="Feed Grid" src="https://user-images.githubusercontent.com/33532995/113164592-25ce4b80-9239-11eb-9d68-40720425a860.png">
 
 ### Slider
-`[instafeed user="feed-slider"]`
+`[instafeed user="feed-slider"]`<br><br>
 <img width="1148" alt="Feed Slider" src="https://user-images.githubusercontent.com/33532995/113162703-6af17e00-9237-11eb-841b-832dd8f965d0.png">
 
 
@@ -78,7 +82,7 @@ You can pass extra parameters to the grid and slider:
 If the instagram feed is showing the wrong user, this is usually down to the transients showing a cached version.
 
 To fix this, pleaase use these steps:
-1. uncomment lines `8` and `20` in index.php
+1. Uncomment lines `8` and `20` in index.php
 2. Load the frontend where the shortcode appears
 3. Re-comment lines `8` and `20`
 
