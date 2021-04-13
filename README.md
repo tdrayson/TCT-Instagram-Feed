@@ -1,7 +1,7 @@
 # Custom Instagram Feed
 Add instagram feed to page from URL
 
-**Edit** - *As of 13th April 2021* - This code does not work. Solution is being looked into, however due to time constraints from client work, this may be a bit of time until I am able to look at trying to fix this.
+:construction: **Edit** - *As of 13th April 2021* - This code does not work. Solution is being looked into, however due to time constraints from client work, this may be a bit of time until I am able to look at trying to fix this.
 
 Feel free to have a go at fixing it. Make a pull request if you find a solution.
 
